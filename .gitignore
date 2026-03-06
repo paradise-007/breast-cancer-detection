@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+
+# Large model weights (upload separately or via Git LFS)
+models/saved/*.keras
+models/saved/*.h5
+
+# Uploaded images
+static/uploads/
+
+# Dataset
+data/
+
+# Training plots
+models/saved/training_plots/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
